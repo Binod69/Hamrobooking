@@ -1,0 +1,77 @@
+.container {
+  margin-top: 4rem;
+  background-color: var(--background-color-secondary);
+  height: var(--small-height);
+  box-shadow: var(--box-shadow-sm);
+
+  .title {
+    text-align: center;
+    margin-top: var(--margin-normal);
+    font-family: var(--font-inter);
+    font-style: var(--font-style-normal);
+    font-weight: 700;
+    font-size: var(--font-size-large);
+    line-height: 1.2rem;
+    color: var(--white-color);
+  }
+
+  .para {
+    text-align: center;
+    font-family: var(--font-inter);
+    font-style: var(--font-style-normal);
+    font-weight: 300;
+    font-size: var(--fixed-font-size-medium);
+    line-height: 1.4rem;
+
+    color: var(--white-color);
+  }
+
+  .emailForm {
+    width: 70%;
+    margin: auto;
+    box-shadow: var(--box-shadow-sm);
+  }
+  .svgsBtn {
+    background-color: var(--btn-color-primary);
+    color: var(--white-color);
+    padding: 0.7rem;
+    box-shadow: var(--box-shadow-sm);
+  }
+
+  .btn {
+    background-color: var(--white-color);
+    border: none;
+    padding: 0.6rem;
+    width: 10rem;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: var(--box-shadow-sm);
+  }
+}
+
+.btnProperty {
+  padding: 0.6rem;
+  background-color: var(--white-color);
+  color: var(--btn-color-primary);
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--fixed-font-size-medium);
+  margin-top: var(--margin-normal-medium);
+  box-shadow: var(--box-shadow-sm);
+
+  &:hover {
+    background-color: #f1eded;
+  }
+}
+
+.svglogin {
+  background-color: var(--btn-color-primary);
+  color: var(--white-color);
+  padding: 0.7rem;
+  box-shadow: var(--box-shadow-sm);
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin-top: 10%;
+  }
+}

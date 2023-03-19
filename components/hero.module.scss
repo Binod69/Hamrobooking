@@ -1,0 +1,38 @@
+.heading {
+  font-family: var(--font-inter);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-extra-large);
+  letter-spacing: 0.2em;
+  line-height: var(--line-height-large);
+
+  .headingMemo {
+    font-family: var(--font-island);
+    color: var(--text-secondary-color1);
+    font-size: var(--font-size-extra-large);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+  }
+}
+
+.para {
+  color: var(--text-secondary-color2);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-small);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-medium-large);
+}
+
+.para2 {
+  font-family: var(--font-inter);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-secondary-color2);
+}
+
+.hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 2px solid var(--border-top-color);
+}

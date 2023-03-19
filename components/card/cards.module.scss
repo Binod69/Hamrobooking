@@ -1,0 +1,46 @@
+.title {
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-large);
+  color: #487254;
+  margin-bottom: 1.3rem;
+}
+
+.img {
+  width: var(--full-width);
+  height: 100%;
+  object-fit: cover;
+}
+.cardTitle {
+  font-family: var(--font-inter);
+  font-style: var(--font-style-normal);
+  color: var(--dark-color);
+  font-weight: var(--font-weight-large);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-medium);
+}
+.cardPara {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  font-family: var(--font-inter);
+  font-style: var(--font-style-norma);
+  color: var(--dark-color);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--fixed-font-size-small);
+  line-height: var(--line-height-small);
+  letter-spacing: 0.065em;
+  text-align: justify;
+}
+
+.hr {
+  border-top: 1px solid rgb(149, 147, 147);
+}
+
+@media screen and (min-width: 1200px) {
+  .img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
+}

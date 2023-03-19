@@ -1,0 +1,50 @@
+.formContainer {
+  position: relative;
+  margin-bottom: 0.5rem;
+
+  .icon {
+    position: absolute;
+    top: calc(20%);
+    left: 1.25rem;
+  }
+  .formControl {
+    left: 0.5rem;
+    padding-left: 2.4rem;
+  }
+  .date {
+    position: absolute;
+    z-index: 5;
+  }
+  .options {
+    position: absolute;
+    background-color: white;
+
+    z-index: 5;
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .optionsItem {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 0.76rem;
+    color: black;
+  }
+  .optionCounterButton {
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+  }
+  .optionCounterButton:disabled {
+    cursor: not-allowed;
+  }
+}

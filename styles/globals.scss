@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', 'Island Moments', 'sans-serif';
+  background-color: #f8fafb;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  //fonts sizes, family and weights
+  //font family
+  --font-inter: 'Inter', sans-serif;
+  --font-island: 'Island Moments', cursive;
+  --font-style-normal: normal;
+  //font size
+  --font-size-extra-large: clamp(1.5rem, -0.375rem + 6vw, 3rem);
+  --font-size-large: clamp(1.2rem, -0.375rem + 6vw, 2rem);
+  --font-size-medium: clamp(1rem, -0.375rem + 6vw, 1.3rem);
+  --font-size-small: clamp(1.2rem, -0.375rem + 6vw, 1.2rem);
+  //fixed font size
+  --fixed-font-size-medium: 1rem;
+  --fixed-font-size-small: 0.8rem;
+  //font weight
+  --font-weight-normal: 400;
+  --font-weight-large: 500;
+
+  //line height
+  --line-height-large: 3rem;
+  --line-height-medium-l: 2rem;
+  --line-height-medium-large: 1.5rem;
+  --line-height-medium: 1.2rem;
+  --line-height-small: 0.83rem;
+
+  //text and button color
+  --text-secondary-color1: #487254;
+  --text-secondary-color2: #4b4a47;
+  --dark-color: #000000;
+  --white-color: #ffffff;
+  --btn-color-primary: #487254;
+
+  //background color
+  --background-color-secondary: #43cea2;
+
+  //border color
+  --border-top-color: #b7ae90;
+
+  //width and height for image
+  --full-width: 100%;
+  --medium-height: 15rem;
+  --small-height: 13rem;
+
+  //margin
+  --margin-medium: 2rem;
+  --margin-normal-medium: 1.5rem;
+  --margin-normal: 1rem;
+
+  //box shadows
+  --box-shadow-sm: 0 0.125rem 0.25rem rgba(black, 0.075);
+}
+
+//Carousels next and prev arrow style//
+
+// .slick-prev:before {
+//   color: #4b4a47 !important;
+// }
+// .slick-next:before {
+//   color: #4b4a47 !important;
+// }

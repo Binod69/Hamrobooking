@@ -1,0 +1,46 @@
+.hr {
+  margin-top: var(--margin-normal);
+  margin-bottom: var(--margin-normal);
+  border: 2px solid var(--border-top-color);
+}
+.offerTitle {
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-medium-l);
+  color: var(--dark-color);
+}
+
+.img {
+  width: var(--full-width);
+  object-fit: cover;
+}
+
+.offerPara {
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: clamp(1rem, -0.375rem + 6vw, 0.7rem);
+  line-height: var(--line-height-medium);
+  color: var(--text-secondary-color2);
+}
+
+.btn {
+  padding: 0.6rem;
+  background-color: var(--white-color);
+  color: var(--btn-color-primary);
+  border: none;
+  font-size: var(--fixed-font-size-medium);
+  margin-top: var(--margin-normal);
+  box-shadow: var(--box-shadow-sm);
+
+  &:hover {
+    background-color: #cef1ea;
+  }
+}
+
+.svglogin {
+  background-color: var(--btn-color-primary);
+  color: var(--white-color);
+  padding: 0.7rem;
+  box-shadow: var(--box-shadow-sm);
+}

@@ -1,0 +1,20 @@
+.btn {
+  padding: 0.6rem;
+  background-color: #ffffff;
+  color: #487254;
+  border: none;
+  font-family: 'Inter';
+  font-size: 1rem;
+  box-shadow: var(--box-shadow-sm);
+
+  &:hover {
+    background-color: #f1eded;
+  }
+}
+
+.svglogin {
+  background-color: #487254;
+  color: #ffffff;
+  padding: 0.7rem;
+  box-shadow: var(--box-shadow-sm);
+}

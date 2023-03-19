@@ -1,0 +1,76 @@
+@media screen and (max-width: 576px) {
+  .composition {
+    flex: auto;
+    box-shadow: var(--box-shadow-sm);
+  }
+}
+
+// @media screen and (min-width: 992px) {
+//   .composition {
+//     position: relative;
+//   }
+// }
+@media screen and (min-width: 1200px) {
+  .heading {
+    color: var(--btn-color-primary);
+    font-family: var(--font-inter);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-medium-l);
+  }
+  .subHeading {
+    color: var(--text-secondary-color2);
+    font-family: var(--font-inter);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+  }
+  .composition {
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    margin-left: 2rem;
+    z-index: 2;
+  }
+  .compositionPhoto {
+    width: 70%;
+    position: relative;
+    height: 80%;
+    border-radius: 1.5%;
+    object-fit: cover;
+    box-shadow: var(--box-shadow-sm);
+    transition: all 0.2s;
+  }
+
+  .compositionPhotoP1 {
+    top: 1rem;
+    left: 5rem;
+    &:hover {
+      transform: scale(1.05);
+      z-index: 3;
+    }
+  }
+  .compositionPhotoP2 {
+    bottom: 11rem;
+    left: 0rem;
+    &:hover {
+      transform: scale(1.05);
+
+      z-index: 3;
+    }
+  }
+  .title1 {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 2rem;
+    left: 6.5rem;
+    color: var(--white-color);
+  }
+
+  .title2 {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 9rem;
+    left: 2rem;
+    color: var(--white-color);
+  }
+}

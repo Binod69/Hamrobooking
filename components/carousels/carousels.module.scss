@@ -1,0 +1,22 @@
+.img {
+  width: var(--full-width);
+  height: var(--small-height);
+  object-fit: cover;
+}
+
+.title {
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-large);
+  color: #487254;
+  margin-bottom: 1.3rem;
+}
+
+.cardTitle {
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-medium);
+}
+
+.cardNumber {
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-small);
+}
